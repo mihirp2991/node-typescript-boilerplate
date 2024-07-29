@@ -1,0 +1,45 @@
+{
+  "name": "node-js-typescript",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/app.js",
+    "dev": "nodemon src/server.ts",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "2.3.0",
+    "mongoose": "8.5.1",
+    "morgan": "1.10.0",
+    "uuid": "10.0.0",
+    "winston": "3.13.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.7.0",
+    "@types/cors": "2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "1.9.9",
+    "@types/node": "^20.14.11",
+    "@types/uuid": "10.0.0",
+    "concurrently": "^8.2.2",
+    "eslint": "8.57.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-n": "16.6.2",
+    "eslint-plugin-promise": "6.4.0",
+    "globals": "15.8.0",
+    "nodemon": "^3.1.4",
+    "prettier": "3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "7.16.1"
+  }
+}

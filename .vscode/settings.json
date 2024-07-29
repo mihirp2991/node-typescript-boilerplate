@@ -1,0 +1,9 @@
+{
+  "markdown.validate.fileLinks.enabled": "warning",
+  "markdown.validate.fileLinks.markdownFragmentLinks": "warning",
+  "typescript.validate.enable": true,
+  "js/ts.implicitProjectConfig.strictFunctionTypes": true,
+  "reactSnippets.settings.typescriptPropsStatePrefix": "type",
+  "color-highlight.rgbWithNoFunctionLanguages": ["*"],
+  "editor.formatOnSave": true
+}
